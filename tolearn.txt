@@ -2,4 +2,5 @@
 Options in Spring boot initializr
 @RequestParam(value = "name", defaultValue = "World")
 Buildering projects in different apps
-
+Spring boot terminologies
+What is unit test
