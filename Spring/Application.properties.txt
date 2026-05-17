@@ -1,0 +1,8 @@
+application.properties 
+It is the main configuration file used by Spring Boot applications.
+
+
+JDBC configuration
+server.port=8080
+spring.datasource.username=root
+spring.datasource.password=secret

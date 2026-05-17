@@ -1,0 +1,14 @@
+Resource Folder 
+
+Place where we store all non Java files of the application that we need to use in runtime
+
+
+src
+ └── main
+      ├── java
+      │    └── com/example/demo
+      └── resources
+           ├── application.properties
+           ├── static
+           ├── templates
+           └── data.sql
