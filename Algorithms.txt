@@ -1,0 +1,63 @@
+Backtracking
+
+1. Define a base case
+2. Define a starting point
+3. Explore all viable paths from that starting point(Recursive DFS)
+4. Backtrack after each path/solution is explored
+
+
+Dynamic Programming (Recursive / Memorization)
+
+1. Define the base case
+2. Create a hash map (memorization table) to store previously computed solutions
+3. Define the recursive relation showing how the main problem can be solved using subproblems
+4. Before solving a subproblem, check if its answer already exists in the memorization table
+5. Store the computed result before returning it
+
+Dynamic Programming (Iterative / Tabulation)
+
+
+1. Define the base case(s)
+2. Treat each index/state as a subproblem
+3. Iterate through the states
+4. Define the transition/recurrence relation between states
+5. Compute each state using previously solved states
+6. Continue until the final state is reached
+7. Return the value of the final state
+
+
+Priority Queue (Min Heap)
+
+Add()
+1. Add the new element at the end of the heap
+2. Compare it with its parent
+3. If the element is smaller than the parent:
+      swap them
+      continue checking upward
+4. Otherwise stop
+
+
+
+Delete()
+1. Remove the root element (minimum element)
+2. Move the last element to the root
+3. Compare the root with its left and right child
+4. Find the smaller child
+5. If the smaller child is less than the root:
+      swap them
+      continue downward on that branch
+6. Otherwise stop
+
+
+Next Permutation
+1. Traverse from the end and find the first element that breaks the decreasing sequence.
+   (The suffix is already in its largest possible permutation.)
+
+2. If such an element exists, swap it with the first element from the end that is greater than it.
+  This finds the next greater element for that position.
+
+3. Reverse the subarray after that position.
+   This makes the remaining part as small as possible.
+
+
+
